@@ -156,4 +156,48 @@ body {
     border-color: #1a252f;
   }
 
-  
+  #main {
+    background-image: url(img/bk.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+  }
+
+  #body_text h1 {
+    text-align: center;
+    padding-top: 200px;
+    /*padding: 40px;*/
+    color: orange;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 80px;
+  }
+
+  #body_text p {
+    text-align: center;
+    color: orange;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: Merienda, Tangerine;
+    font-size: 40px;
+  }
+
+  .project {
+    display: flex;
+    justify-content: center;
+  }
+
+  .single-project {
+    margin: 10px;
+    box-shadow: 2px 4px 12px 4px black;
+    border-radius: 8px;
+  }
+  .col-md-3{
+    padding:0;
+  }
+  .navbar{
+    background: rgba(241, 243, 243, 0)"
+  }
+
