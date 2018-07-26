@@ -157,7 +157,7 @@ body {
   }
 
   #main {
-    background-image: url(img/bk.jpg);
+    background-image: url('../img/bk.jpg');
     background-size: cover;
     background-position: center center;
     position: relative;
